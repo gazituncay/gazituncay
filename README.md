@@ -75,11 +75,16 @@ I build things end to end: the website people land on, the account panel behind 
       <sub>🔒 private repository</sub>
     </td>
     <td width="50%" valign="top">
-      <h3>🔌 Game Protocol &amp; Marketplace Tools</h3>
-      <p>A clientless multi-bot manager that speaks a game's binary protocol directly over TCP, an in-game AI chat agent backed by Gemini, and an autonomous NFT marketplace bot on Immutable X (auto-undercut and auto-raise, wallet tracking, Discord alerts).</p>
-      <p>Each one ships with a web control panel behind IP allowlists and auth.</p>
+      <h3>🔌 Game Protocols &amp; Marketplace Tools</h3>
+      <ul>
+        <li>A from-scratch client for an ENet (UDP) game protocol: range-coder compression, checksums, fragment reassembly and a two-stage handshake, verified byte for byte against thousands of captured packets.</li>
+        <li>A clientless multi-session manager that speaks another game's binary TCP protocol, plus an in-game AI chat agent backed by Gemini.</li>
+        <li>An autonomous NFT marketplace agent on Immutable X: auto-undercut and auto-raise, wallet tracking, Discord alerts.</li>
+      </ul>
+      <p>Web control panels behind IP allowlists and auth, with unit and integration tests.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-0b0f17?style=flat-square&logo=python&logoColor=ffd43b">
+        <img src="https://img.shields.io/badge/Wireshark-0b0f17?style=flat-square&logo=wireshark&logoColor=1679a7">
         <img src="https://img.shields.io/badge/Node.js-0b0f17?style=flat-square&logo=nodedotjs&logoColor=5fa04e">
         <img src="https://img.shields.io/badge/React-0b0f17?style=flat-square&logo=react&logoColor=61dafb">
         <img src="https://img.shields.io/badge/Java-0b0f17?style=flat-square&logo=openjdk&logoColor=white">
@@ -100,7 +105,8 @@ I build things end to end: the website people land on, the account panel behind 
     </td>
     <td width="50%" valign="top">
       <h3>🤖 Bots &amp; Automation</h3>
-      <p>Discord bots, tracking services and AI integrations, self-hosted on a Linux VDS with encrypted, versioned backups.</p>
+      <p>Discord tooling for message archiving and search: real-time and backfill collection into SQLite, keyword, regex and link filters, and notification relays.</p>
+      <p>Plus tracking services and AI integrations, all self-hosted on a Linux VDS with encrypted, versioned backups.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-0b0f17?style=flat-square&logo=python&logoColor=ffd43b">
         <img src="https://img.shields.io/badge/JavaScript-0b0f17?style=flat-square&logo=javascript&logoColor=f7df1e">
